@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student-Teacher Appointment Booking</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student-Teacher Appointment Booking</h1>
+    <div id="teacherList">
+    </div>
+    <div id="studentList">
+       </div>
+    <div id="appointmentList">
+    </div>
+    <div id="loginForm">
+      <h2>Teacher Login</h2>
+      <input type="text" id="teacherUsername" placeholder="Username">
+      <input type="password" id="teacherPassword" placeholder="Password">
+      <button onclick="teacherLogin()">Login</button>
+    </div>
+    <div id="studentRegistration">
+      <h2>Student Registration</h2>
+      <input type="text" id="studentName" placeholder="Name">
+      <input type="text" id="studentUsername" placeholder="Username">
+      <input type="password" id="studentPassword" placeholder="Password">
+      <button onclick="registerStudent()">Register</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
